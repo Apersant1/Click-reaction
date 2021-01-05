@@ -5,6 +5,7 @@ let nums = []
 for(let i = 0; i<=25;i++){
     if(nums.includes(GenNum())){
         nums.push(GenNum(i+1))
+        
     } else{
         nums.push(GenNum())
     }
